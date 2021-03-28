@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f2f6ff;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+header {
+  padding: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: burlywood;
+}
+header span {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid lightgray;
+  font-weight: 800;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+  color: white;
+  text-align: center;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header span:hover {
+  background-color: lightpink;
+  cursor: pointer;
+}
+.banner {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(235, 235, 191, 0.7),
+      rgba(85, 88, 212, 0.8)
+    ),
+    url("https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.banner div {
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.banner a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: 900;
+}
+.banner a:hover {
+  text-decoration: underline;
+  color: antiquewhite;
+}
+.banner ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#html,
+#css,
+#js,
+#react,
+#node,
+#express,
+#mongo {
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 24px;
+  font-weight: 800;
+}
+#html {
+  background-image: url(https://disenowebakus.net/en/images/articles/html5-new-tags-effects-behaviors.jpg);
+}
+#css {
+  background-image: url(https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg);
+}
+#js {
+  background-image: url(https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg);
+}
+#react {
+  background-image: url(https://miro.medium.com/max/3840/1*yjH3SiDaVWtpBX0g_2q68g.png);
+}
+#node {
+  background-image: url(https://miro.medium.com/max/3200/1*xdo0UBpyszvD7-7EH4TkIA.png);
+}
+#express {
+  background-image: url(https://ncube-digest.com/wp-content/uploads/2020/07/Express-JS.png);
+  color: #f2f6ff;
+}
+#mongo {
+  background-image: url(https://miro.medium.com/max/1040/1*Mx3MUKkPENbaIR-vKGeLDw.jpeg);
+}
